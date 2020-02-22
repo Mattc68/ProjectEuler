@@ -1,0 +1,16 @@
+
+public class problem_001 {
+
+	public static void main(String[] args) {
+		System.out.println(p1(10));
+
+	}
+	
+	public static int p1(int m) {
+		for(int i = 0; i < m; i++) {
+			System.out.println(i);
+		}
+		return m;
+	}
+
+}
